@@ -78,6 +78,32 @@
 4. проверьте, что вы начали получать обновления status.md в корне вашего хранилища (если нет, то разберитесь почему и исправьте)  
 5. начните использщовать git из IDE или клиента
 
+## неделя 06
+
+Напишите самопроверочную работу: засеките 1 час и попробуйте решить пару задач, все результаты залейте в ваше хранилище git.
+
+### задачи (условия)
+
+#### группа 01  
+[1501A. Леша и поезд](https://codeforces.com/problemset/problem/1501/A)  
+[1701A. Поляна](https://codeforces.com/problemset/problem/1701/A)  
+
+#### группа 02  
+[1585A. Жизни цветов важны](https://codeforces.com/problemset/problem/1585/A)  
+[1692C. Где слон?[(https://codeforces.com/problemset/problem/1692/C)  
+
+#### группа 03  
+[915A. Сад](https://codeforces.com/problemset/problem/915/A)  
+[1680B. Роботы](https://codeforces.com/problemset/problem/1680/B)  
+
+#### группа 04  
+[935B. Фафа и ворота](https://codeforces.com/problemset/problem/935/B)  
+[1512B. Почти прямоугольник](https://codeforces.com/problemset/problem/1512/B)  
+
+### ДЗ
+
+Попробуйте решить задачи для других групп.
+
 <!-- -->
 
 # Инструменты
