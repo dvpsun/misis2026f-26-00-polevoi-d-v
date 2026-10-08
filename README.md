@@ -90,7 +90,7 @@
 
 #### группа 02  
 [1585A. Жизни цветов важны](https://codeforces.com/problemset/problem/1585/A)  
-[1692C. Где слон?[(https://codeforces.com/problemset/problem/1692/C)  
+[1692C. Где слон?](https://codeforces.com/problemset/problem/1692/C)  
 
 #### группа 03  
 [915A. Сад](https://codeforces.com/problemset/problem/915/A)  
