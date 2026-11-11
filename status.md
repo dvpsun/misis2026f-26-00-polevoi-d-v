@@ -80,3 +80,13 @@ misis2026f-26-00-polevoi-d-v
 -----------------|------------|------------|------------------------------
 Google C++ Style | formatting |       1699 | prj.check/prj.check/doctest_arrayd/doctest_arrayd.cpp:1; prj.check/prj.check/doctest_arrayd/doctest_arrayd.cpp:1; prj.check/prj.check/doctest_arrayd/doctest_arrayd.cpp:1 …(+1696 more)
 
+
+============================================================
+
+--- СТУДЕНЧЕСКИЙ ПРОТОКОЛ (краткий, без локализации) ---
+20261112-025111
+misis2026f-26-00-polevoi-d-v
+
+  Google C++ Style
+    Нарушение Google C++ Style
+
