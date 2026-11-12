@@ -110,3 +110,57 @@ misis2026f-26-00-polevoi-d-v
   Google C++ Style
     Нарушение Google C++ Style
 
+
+============================================================
+
+--- СТУДЕНЧЕСКИЙ ПРОТОКОЛ (краткий, без локализации) ---
+20261112-034826
+misis2026f-26-00-polevoi-d-v
+
+  Диагностика компилятора
+    clang-diagnostic-error
+  Ошибки (bugprone)
+    bugprone-exception-escape
+    bugprone-narrowing-conversions,cppcoreguidelines-narrowing-conversions
+    bugprone-easily-swappable-parameters
+  Google C++ Style
+    formatting
+  Читаемость
+    readability-identifier-length
+    readability-avoid-const-params-in-decls
+    readability-implicit-bool-conversion
+    readability-use-concise-preprocessor-directives
+  Модернизация C++
+    modernize-use-trailing-return-type
+  Производительность
+    performance-avoid-endl
+  LLVM
+    llvm-header-guard
+  LLVM libc
+    llvmlibc-implementation-in-namespace
+    llvmlibc-callee-namespace
+    llvmlibc-restrict-system-libc-headers
+    llvmlibc-inline-function-decl
+  Fuchsia
+    fuchsia-overloaded-operator
+    fuchsia-default-arguments-calls
+  Altera
+    altera-unroll-loops
+    altera-struct-pack-align
+  C++ Core Guidelines
+    cppcoreguidelines-avoid-magic-numbers,readability-magic-numbers
+    cppcoreguidelines-pro-bounds-constant-array-index
+    cppcoreguidelines-avoid-non-const-global-variables
+    cppcoreguidelines-special-member-functions
+  Разное
+    misc-use-internal-linkage
+    misc-const-correctness
+    misc-include-cleaner
+    misc-non-private-member-variables-in-classes
+    misc-unused-parameters
+  Переносимость
+    portability-avoid-pragma-once
+  Прочее
+    other
+    
+
