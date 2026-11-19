@@ -2,6 +2,7 @@
 
 #include <rational/rational.hpp>
 
+#include <iostream>
 #include <stdexcept>
 
 Rational::Rational(const std::int32_t num, const std::int32_t den)
@@ -31,6 +32,9 @@ Rational& Rational::operator-=(const int32_t rhs) noexcept { return operator-=(R
 Rational& Rational::operator*=(const int32_t rhs) noexcept { return operator*=(Rational(rhs)); };
 Rational& Rational::operator/=(const int32_t rhs) { return operator/=(Rational(rhs)); };
 
+std::ostream& Rational::write_to(std::ostream& ostrm) const noexcept {
+  return ostrm << num_ << '/' << den_;
+}
 
 Rational operator+(const Rational& lhs, const Rational& rhs) noexcept { return Rational{ lhs } += rhs; }
 Rational operator-(const Rational& lhs, const Rational& rhs) noexcept { return Rational{ lhs } -= rhs; }
@@ -48,6 +52,6 @@ Rational operator*(const int32_t lhs, const Rational& rhs) noexcept { return ope
 Rational operator/(const int32_t lhs, const Rational& rhs) { return operator+(rhs, lhs); }
 
 
-std::ostream& operator<<(std::ostream& ostrm, const Rational& rhs) noexcept { return ostrm; }
+std::ostream& operator<<(std::ostream& ostrm, const Rational& rhs) noexcept { return rhs.write_to(ostrm); }
 
 std::istream& operator>>(std::istream& istrm, Rational& rhs) noexcept { return istrm; }
