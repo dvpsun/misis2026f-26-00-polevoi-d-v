@@ -1,4 +1,4 @@
-STAMP: 20261119-073002
+STAMP: 20261119-073636
 OK: file codeforces.id is correct
 ERROR: file prj.codeforces/0276a.cpp is absent
 ERROR: file prj.codeforces/0978b.cpp is absent
@@ -24,7 +24,4 @@ OK: folder prj.codeforces structure is correct
 STATUS: lab complex - test-failed
 STATUS: lab complex_io - test-failed
 STATUS: lab rational_io - test-failed
-ERROR: lab stacka - test build failed
-ERROR: lab stackl - test build failed
 ERROR: lab queuea - test build failed
-ERROR: lab stackl - test build failed
